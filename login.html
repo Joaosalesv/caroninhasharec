@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à Carona-Fácil</h1>
+    </header>
+    <main>
+        <section id="login">
+            <h2>Faça login</h2>
+            <form onsubmit="return validarLogin();">
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" required><br>
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" required><br>
+                <button type="submit">Entrar</button>
+            </form>
+            <p>Não possui conta? <a href="./cadastro.html">Cadastre-se aqui.</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2022 Carona-Fácil, todos os direitos reservados.</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
